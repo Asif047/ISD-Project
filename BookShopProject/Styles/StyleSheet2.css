@@ -1,0 +1,65 @@
+body{
+	
+	background: #1a6d74 none repeat scroll 0 0;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 20px;
+}
+.main{
+
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main img{
+	margin-left: 438px;
+	margin-top: 102px;
+}
+.login{
+
+	background: #eeeeee none repeat scroll 0 0;
+	border-radius: 20px;
+	height: 400px;
+	margin-left: 220px;
+	margin-top: -50px;
+	padding-top: 65px;
+	width: 550px;
+	
+	}
+
+.login h2{
+
+	color: #697784;
+	font-family: COMIC SANS MS;
+	font-size: 30px;
+	text-align: center;
+}
+.login input{
+
+	background: #d3d3d3 none repeat scroll 0 0;
+	border-radius: 6px;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	margin-left: 100px;
+	margin-top: 15px;
+	width: 350px;
+	font-family: COMIC SANS MS;
+}
+
+
+
+button {
+
+  	background: #21a957 none repeat scroll 0 0;
+	border-radius: 6px;
+	color: #fff;
+	font-family: COMIC SANS MS;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-top: 15px;
+	padding: 13px;
+	width: 355px;
+}

@@ -1,0 +1,333 @@
+body
+{
+    font-family: "Lucida Calligraphy";
+    background-image:url(../images/background3.jpg) ;
+}
+
+body h1
+{
+    margin-top: 50px;
+    font-size: 1.6em;
+    line-height: 1.28;
+    color: red;
+}
+
+
+
+body p
+{
+    font-size: 1.3em;
+    line-height: 1.18;
+    margin-left: 0px;
+    margin-right: 50px;
+    border:10px;
+    padding:10px;
+    color: white;
+    text-align: justify;
+}
+
+
+#a1
+{
+    font-family: "Chiller";
+    font-size: 1.5em;
+    line-height: 1.28;
+    margin-left: 0px;
+    margin-right: 50px;
+    border:10px;
+    padding:10px;
+    color:#0066FF;
+}
+
+#wrapper
+{
+    width: 950px;
+    background-image: url(../images/background2.jpg);
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #dedede;
+    
+    
+}
+
+#banner
+{
+    background-image: url(../images/header2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #dedede;    
+    height: 200px;
+   
+}
+
+#content_area
+{
+    float: left;
+    width: 950px;
+    margin: 0px 0 20px 0;
+    padding: 10px;
+}
+
+
+
+footer
+{
+ 
+     font-family: "Lucida Calligraphy";
+    
+    clear: both;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid #E3E3E3;
+    text-align:center;
+    //color: #fff;
+   // text-shadow: 0.1em 0.1em #333;
+    background-image: url(../images/footer.png);
+    
+    margin-top: 40px;
+}
+
+#navigation
+{
+   
+    height: 60px;
+    border: 3px solid #E3E3E3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 0.1em 0.1em #333;
+    background-color: #003366;
+    
+    
+}
+
+#nav
+{
+    list-style: none;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+}
+
+#nav li
+{
+     font-family: "Arial";
+    font-size: 16px;
+    float: left;
+   // margin-left: 10px;
+    margin-right: 17px;
+    position: relative;
+    width: 96px;
+    height: 50px;
+}
+
+#nav a:link, nav a:active, nav a:visited
+{
+    display: block;
+    color: #FFFFCC;
+    text-decoration: none;
+    border-right:1px solid #000000;
+     border-width:4px;
+     
+}
+
+#nav a:hover
+{
+    color: lightblue;
+}
+
+.imgLeft
+{
+    float: left;
+    width: 280px;
+    height: 280px;
+    //margin: 20px 10px 10px 0;
+    margin-top:30px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.imgRight
+{
+    float: right;
+    
+    width: 300px;
+    height: 280px;
+    margin-right: 60px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.imgcenter
+{
+   
+    margin-top: 50px;
+    
+}
+
+
+#P_center
+{
+    text-align: center;
+}
+
+
+
+.bookTable
+{
+    width: 800px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.bookTable tr th, .bookTable tr td
+{
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+    
+    width: 200px;
+}
+
+.bookTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 350px;
+    width: 300px;
+}
+
+
+.branchTable
+{
+    width: 750px;
+    height: 250px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.branchTable tr th, .branchTable tr td
+{
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+}
+
+.branchTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+
+.bookingTable
+{
+    width: 800px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.bookingTable tr th, .bookingTable tr td
+{
+    width:300px;
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+}
+
+
+.ordersTable
+{
+    width: 800px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.ordersTable tr th, .ordersTable tr td
+{
+    width:300px;
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+}
+
+
+.customerTable
+{
+    width: 800px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.customerTable tr th, .customerTable tr td
+{
+    width:300px;
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+}
+
+
+
+
+
+.staffTable
+{
+    width: 800px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.staffTable tr th, .staff tr td
+{
+    width:300px;
+    text-align: left;
+    color: white;
+    padding: 0px 5px 0 5px;
+}
+
+
+
+
+
+ul.sub1
+{
+    list-style-type: none;
+}
